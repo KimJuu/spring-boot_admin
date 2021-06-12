@@ -5,7 +5,7 @@ import org.springframework.web.bind.annotation.*;
 
 @RestController
 @RequestMapping("/api") //localhost:8080/api
-public class getController {
+public class GetController {
     @RequestMapping(method = RequestMethod.GET, path = "/getMethod")
     public String getRequest(){
         return "Hi getMethod";
